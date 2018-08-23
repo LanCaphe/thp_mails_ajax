@@ -18,7 +18,9 @@
     background-color: white;
     grid-row: 1;
     grid-column: 1;
-    box-shadow: 2px 2px 2px $grey
+    box-shadow: 2px 2px 2px $grey;
+    border-radius: 5px;
+    overflow-y: scroll
 }
 
 .emails-grid p {
@@ -37,10 +39,15 @@
     background-color: white;
     grid-row: 1;
     grid-column: 2;
-    box-shadow: 2px 2px 2px $grey
+    box-shadow: 2px 2px 2px $grey;
+    border-radius: 5px
 }
 
 .emails-grid ul li {
     margin: 15px;
     padding: 5px
+}
+
+.emails-object-block:hover {
+    background-color: $light-grey
 }

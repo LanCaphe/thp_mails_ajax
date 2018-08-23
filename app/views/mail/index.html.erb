@@ -5,6 +5,8 @@
     <title></title>
   </head>
   <body>
-
+    <% @mails.each do |mail| %>
+    <%= mail.object %>
+    <% end %>
   </body>
 </html>
